@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "name": "month",
+      "type": "string",
+      "displayName": "Month"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "displayName": "value"
+    }
+  ],
+  "rows": [
+    {
+      "month": "Jan",
+      "value": 133
+    },
+    {
+      "month": "Feb",
+      "value": 45
+    },
+    {
+      "month": "Mar",
+      "value": 17
+    },
+    {
+      "month": "Apr",
+      "value": 15
+    },
+    {
+      "month": "May",
+      "value": 132
+    },
+    {
+      "month": "Jun",
+      "value": 136
+    },
+    {
+      "month": "Jul",
+      "value": 273
+    },
+    {
+      "month": "Aug",
+      "value": 88
+    },
+    {
+      "month": "Sep",
+      "value": 220
+    },
+    {
+      "month": "Oct",
+      "value": 133
+    },
+    {
+      "month": "Nov",
+      "value": 200
+    },
+    {
+      "month": "Dec",
+      "value": 59
+    }
+  ],
+  "metadata": {
+    "rowCount": 12,
+    "columnCount": 2,
+    "generatedAt": "2026-01-04T12:51:58.107Z",
+    "source": "timeSeries"
+  }
+}

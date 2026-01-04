@@ -1,0 +1,208 @@
+{
+  "columns": [
+    {
+      "name": "angle",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "type": "number"
+    },
+    {
+      "name": "radius",
+      "type": "number"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "angle": 0,
+      "height": 0,
+      "radius": 50,
+      "value": 165
+    },
+    {
+      "angle": 0.21,
+      "height": 3.33,
+      "radius": 50,
+      "value": 204
+    },
+    {
+      "angle": 0.42,
+      "height": 6.67,
+      "radius": 50,
+      "value": 41
+    },
+    {
+      "angle": 0.63,
+      "height": 10,
+      "radius": 50,
+      "value": 70
+    },
+    {
+      "angle": 0.84,
+      "height": 13.33,
+      "radius": 50,
+      "value": 264
+    },
+    {
+      "angle": 1.05,
+      "height": 16.67,
+      "radius": 50,
+      "value": 148
+    },
+    {
+      "angle": 1.26,
+      "height": 20,
+      "radius": 50,
+      "value": 254
+    },
+    {
+      "angle": 1.47,
+      "height": 23.33,
+      "radius": 50,
+      "value": 219
+    },
+    {
+      "angle": 1.68,
+      "height": 26.67,
+      "radius": 50,
+      "value": 101
+    },
+    {
+      "angle": 1.88,
+      "height": 30,
+      "radius": 50,
+      "value": 290
+    },
+    {
+      "angle": 2.09,
+      "height": 33.33,
+      "radius": 50,
+      "value": 151
+    },
+    {
+      "angle": 2.3,
+      "height": 36.67,
+      "radius": 50,
+      "value": 228
+    },
+    {
+      "angle": 2.51,
+      "height": 40,
+      "radius": 50,
+      "value": 292
+    },
+    {
+      "angle": 2.72,
+      "height": 43.33,
+      "radius": 50,
+      "value": 60
+    },
+    {
+      "angle": 2.93,
+      "height": 46.67,
+      "radius": 50,
+      "value": 255
+    },
+    {
+      "angle": 3.14,
+      "height": 50,
+      "radius": 50,
+      "value": 245
+    },
+    {
+      "angle": 3.35,
+      "height": 53.33,
+      "radius": 50,
+      "value": 249
+    },
+    {
+      "angle": 3.56,
+      "height": 56.67,
+      "radius": 50,
+      "value": 278
+    },
+    {
+      "angle": 3.77,
+      "height": 60,
+      "radius": 50,
+      "value": 197
+    },
+    {
+      "angle": 3.98,
+      "height": 63.33,
+      "radius": 50,
+      "value": 32
+    },
+    {
+      "angle": 4.19,
+      "height": 66.67,
+      "radius": 50,
+      "value": 31
+    },
+    {
+      "angle": 4.4,
+      "height": 70,
+      "radius": 50,
+      "value": 259
+    },
+    {
+      "angle": 4.61,
+      "height": 73.33,
+      "radius": 50,
+      "value": 204
+    },
+    {
+      "angle": 4.82,
+      "height": 76.67,
+      "radius": 50,
+      "value": 171
+    },
+    {
+      "angle": 5.03,
+      "height": 80,
+      "radius": 50,
+      "value": 125
+    },
+    {
+      "angle": 5.24,
+      "height": 83.33,
+      "radius": 50,
+      "value": 58
+    },
+    {
+      "angle": 5.45,
+      "height": 86.67,
+      "radius": 50,
+      "value": 144
+    },
+    {
+      "angle": 5.65,
+      "height": 90,
+      "radius": 50,
+      "value": 115
+    },
+    {
+      "angle": 5.86,
+      "height": 93.33,
+      "radius": 50,
+      "value": 254
+    },
+    {
+      "angle": 6.07,
+      "height": 96.67,
+      "radius": 50,
+      "value": 193
+    }
+  ],
+  "metadata": {
+    "rowCount": 30,
+    "columnCount": 4,
+    "generatedAt": "2026-01-04T12:51:58.187Z",
+    "source": "cylinder"
+  }
+}

@@ -3,6 +3,7 @@
    - Network:      http://192.168.29.63:3000
 
  ✓ Starting...
+<<<<<<< Updated upstream
  ✓ Ready in 1420ms
  ○ Compiling / ...
  ⨯ ./src/components/chart-forge/chart-renderer.tsx:5:1
@@ -41,3 +42,95 @@ Import trace for requested module:
  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
  GET / 500 in 429ms
  GET / 500 in 9ms
+=======
+ ✓ Ready in 1600ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1941ms (1764 modules)
+ GET / 200 in 2195ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1531ms (1768 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1675ms
+ GET / 200 in 135ms
+ ✓ Compiled in 574ms (1772 modules)
+ GET / 200 in 60ms
+ GET / 200 in 191ms
+ ⨯ ./src/components/chart-forge/chart-renderer.tsx
+Error:   [31mx[0m Expected ',', got ';'
+     ,-[[36;1;4m/Users/rahulpahuja/Desktop/cht/src/components/chart-forge/chart-renderer.tsx[0m:244:1]
+ [2m241[0m |           const value = Math.round((5 - i) * ((chartData.rows.map(r => {
+ [2m242[0m |             const v = bindings.yAxis ? (Array.isArray(bindings.yAxis) ? r[bindings.yAxis[0]] : r[bindings.yAxis]) : r.value;
+ [2m243[0m |             return typeof v === 'number' ? v : 0;
+ [2m244[0m |           }).filter(v => v > 0).reduce((a, b) => Math.max(a, b), 100) / 5));
+     : [35;1m                                                                           ^[0m
+ [2m245[0m |           ctx.fillText(value.toString(), padding.left - 10, y + 3);
+ [2m246[0m |         }
+ [2m247[0m |       }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/chart-forge/chart-renderer.tsx
+./src/components/chart-forge/dashboard-canvas.tsx
+./src/components/chart-forge/dashboard-editor.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/chart-forge/chart-renderer.tsx
+Error:   [31mx[0m Expected ',', got ';'
+     ,-[[36;1;4m/Users/rahulpahuja/Desktop/cht/src/components/chart-forge/chart-renderer.tsx[0m:244:1]
+ [2m241[0m |           const value = Math.round((5 - i) * ((chartData.rows.map(r => {
+ [2m242[0m |             const v = bindings.yAxis ? (Array.isArray(bindings.yAxis) ? r[bindings.yAxis[0]] : r[bindings.yAxis]) : r.value;
+ [2m243[0m |             return typeof v === 'number' ? v : 0;
+ [2m244[0m |           }).filter(v => v > 0).reduce((a, b) => Math.max(a, b), 100) / 5));
+     : [35;1m                                                                           ^[0m
+ [2m245[0m |           ctx.fillText(value.toString(), padding.left - 10, y + 3);
+ [2m246[0m |         }
+ [2m247[0m |       }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/chart-forge/chart-renderer.tsx
+./src/components/chart-forge/dashboard-canvas.tsx
+./src/components/chart-forge/dashboard-editor.tsx
+./src/app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./src/components/chart-forge/chart-renderer.tsx
+Error:   [31mx[0m Expected ',', got ';'
+     ,-[[36;1;4m/Users/rahulpahuja/Desktop/cht/src/components/chart-forge/chart-renderer.tsx[0m:244:1]
+ [2m241[0m |           const value = Math.round((5 - i) * ((chartData.rows.map(r => {
+ [2m242[0m |             const v = bindings.yAxis ? (Array.isArray(bindings.yAxis) ? r[bindings.yAxis[0]] : r[bindings.yAxis]) : r.value;
+ [2m243[0m |             return typeof v === 'number' ? v : 0;
+ [2m244[0m |           }).filter(v => v > 0).reduce((a, b) => Math.max(a, b), 100) / 5));
+     : [35;1m                                                                           ^[0m
+ [2m245[0m |           ctx.fillText(value.toString(), padding.left - 10, y + 3);
+ [2m246[0m |         }
+ [2m247[0m |       }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/chart-forge/chart-renderer.tsx
+./src/components/chart-forge/dashboard-canvas.tsx
+./src/components/chart-forge/dashboard-editor.tsx
+./src/app/page.tsx
+ GET / 500 in 2049ms
+ GET / 500 in 402ms
+ ✓ Compiled /_error in 889ms (2102 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 336ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 618ms (2092 modules)
+ ✓ Compiled in 407ms (2106 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 247ms
+ GET / 200 in 92ms
+ GET / 200 in 80ms
+ ✓ Compiled in 657ms (2102 modules)
+ GET / 200 in 47ms
+ GET / 200 in 168ms
+>>>>>>> Stashed changes

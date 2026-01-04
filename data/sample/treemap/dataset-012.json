@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "parent",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    },
+    {
+      "name": "color",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "id": "root",
+      "parent": "",
+      "value": 0,
+      "color": 0
+    },
+    {
+      "id": "a",
+      "parent": "root",
+      "value": 10,
+      "color": 10
+    },
+    {
+      "id": "b",
+      "parent": "root",
+      "value": 48,
+      "color": 2
+    },
+    {
+      "id": "a1",
+      "parent": "a",
+      "value": 17,
+      "color": 9
+    },
+    {
+      "id": "a2",
+      "parent": "a",
+      "value": 40,
+      "color": 5
+    },
+    {
+      "id": "b1",
+      "parent": "b",
+      "value": 10,
+      "color": 2
+    },
+    {
+      "id": "b2",
+      "parent": "b",
+      "value": 11,
+      "color": 9
+    }
+  ],
+  "metadata": {
+    "rowCount": 7,
+    "columnCount": 4,
+    "generatedAt": "2026-01-04T12:51:58.076Z",
+    "source": "treemap"
+  }
+}

@@ -121,6 +121,10 @@ export default function ChartRenderer({ config, data, width, height }: ChartRend
   const [rotationZ, setRotationZ] = React.useState(0);
   const [isDragging, setIsDragging] = React.useState(false);
   const [dragStart, setDragStart] = React.useState({ x: 0, y: 0 });
+<<<<<<< Updated upstream
+=======
+  const [canvasSize, setCanvasSize] = React.useState({ w: 800, h: 400 });
+>>>>>>> Stashed changes
 
   const is3DChart = ['surface', 'scatter3d', 'bar3d', 'line3d', 'area3d', 'volume', 'globe', 'map3d', 'tube', 'ribbon', 'cone', 'cone3d', 'pyramid', 'scatterBubble3d', 'cylinder'].includes(type);
 

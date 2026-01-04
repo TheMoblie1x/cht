@@ -1,0 +1,56 @@
+{
+  "columns": [
+    {
+      "name": "category",
+      "type": "string",
+      "displayName": "Category"
+    },
+    {
+      "name": "q1",
+      "type": "number",
+      "displayName": "q1"
+    },
+    {
+      "name": "q2",
+      "type": "number",
+      "displayName": "q2"
+    },
+    {
+      "name": "q3",
+      "type": "number",
+      "displayName": "q3"
+    }
+  ],
+  "rows": [
+    {
+      "category": "North",
+      "q1": 312,
+      "q2": 154,
+      "q3": 117
+    },
+    {
+      "category": "South",
+      "q1": 164,
+      "q2": 8,
+      "q3": 105
+    },
+    {
+      "category": "East",
+      "q1": 200,
+      "q2": 96,
+      "q3": 468
+    },
+    {
+      "category": "West",
+      "q1": 5,
+      "q2": 171,
+      "q3": 270
+    }
+  ],
+  "metadata": {
+    "rowCount": 4,
+    "columnCount": 4,
+    "generatedAt": "2026-01-04T12:51:58.130Z",
+    "source": "category"
+  }
+}

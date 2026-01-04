@@ -1,0 +1,148 @@
+{
+  "columns": [
+    {
+      "name": "x",
+      "type": "number"
+    },
+    {
+      "name": "y",
+      "type": "number"
+    },
+    {
+      "name": "size",
+      "type": "number"
+    },
+    {
+      "name": "category",
+      "type": "string"
+    }
+  ],
+  "rows": [
+    {
+      "x": 75,
+      "y": 183,
+      "size": 138,
+      "category": "C"
+    },
+    {
+      "x": 79,
+      "y": 130,
+      "size": 190,
+      "category": "C"
+    },
+    {
+      "x": 145,
+      "y": 1,
+      "size": 157,
+      "category": "A"
+    },
+    {
+      "x": 72,
+      "y": 157,
+      "size": 85,
+      "category": "C"
+    },
+    {
+      "x": 2,
+      "y": 100,
+      "size": 56,
+      "category": "B"
+    },
+    {
+      "x": 183,
+      "y": 70,
+      "size": 127,
+      "category": "C"
+    },
+    {
+      "x": 190,
+      "y": 1,
+      "size": 167,
+      "category": "C"
+    },
+    {
+      "x": 162,
+      "y": 126,
+      "size": 134,
+      "category": "A"
+    },
+    {
+      "x": 51,
+      "y": 0,
+      "size": 183,
+      "category": "C"
+    },
+    {
+      "x": 86,
+      "y": 31,
+      "size": 122,
+      "category": "B"
+    },
+    {
+      "x": 101,
+      "y": 146,
+      "size": 111,
+      "category": "A"
+    },
+    {
+      "x": 147,
+      "y": 32,
+      "size": 169,
+      "category": "B"
+    },
+    {
+      "x": 107,
+      "y": 23,
+      "size": 182,
+      "category": "B"
+    },
+    {
+      "x": 82,
+      "y": 21,
+      "size": 162,
+      "category": "C"
+    },
+    {
+      "x": 123,
+      "y": 118,
+      "size": 190,
+      "category": "A"
+    },
+    {
+      "x": 122,
+      "y": 199,
+      "size": 65,
+      "category": "B"
+    },
+    {
+      "x": 127,
+      "y": 127,
+      "size": 52,
+      "category": "A"
+    },
+    {
+      "x": 182,
+      "y": 44,
+      "size": 162,
+      "category": "A"
+    },
+    {
+      "x": 12,
+      "y": 110,
+      "size": 155,
+      "category": "C"
+    },
+    {
+      "x": 178,
+      "y": 15,
+      "size": 164,
+      "category": "A"
+    }
+  ],
+  "metadata": {
+    "rowCount": 20,
+    "columnCount": 4,
+    "generatedAt": "2026-01-04T12:51:58.064Z",
+    "source": "bubble"
+  }
+}

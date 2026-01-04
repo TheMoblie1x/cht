@@ -1,0 +1,40 @@
+{
+  "columns": [
+    {
+      "name": "axis",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "axis": "Speed",
+      "value": 21
+    },
+    {
+      "axis": "Strength",
+      "value": 80
+    },
+    {
+      "axis": "Defense",
+      "value": 91
+    },
+    {
+      "axis": "Magic",
+      "value": 72
+    },
+    {
+      "axis": "Stamina",
+      "value": 38
+    }
+  ],
+  "metadata": {
+    "rowCount": 5,
+    "columnCount": 2,
+    "generatedAt": "2026-01-04T12:51:58.083Z",
+    "source": "radar"
+  }
+}

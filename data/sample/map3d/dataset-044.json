@@ -1,0 +1,58 @@
+{
+  "columns": [
+    {
+      "name": "country",
+      "type": "string"
+    },
+    {
+      "name": "lat",
+      "type": "number"
+    },
+    {
+      "name": "lng",
+      "type": "number"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "country": "USA",
+      "lat": 37.09,
+      "lng": -95.71,
+      "value": 18
+    },
+    {
+      "country": "China",
+      "lat": 35.86,
+      "lng": 104.19,
+      "value": 158
+    },
+    {
+      "country": "India",
+      "lat": 20.59,
+      "lng": 78.96,
+      "value": 45
+    },
+    {
+      "country": "Brazil",
+      "lat": -14.23,
+      "lng": -51.92,
+      "value": 91
+    },
+    {
+      "country": "AU",
+      "lat": -25.27,
+      "lng": 133.77,
+      "value": 231
+    }
+  ],
+  "metadata": {
+    "rowCount": 5,
+    "columnCount": 4,
+    "generatedAt": "2026-01-04T12:51:58.152Z",
+    "source": "globe"
+  }
+}

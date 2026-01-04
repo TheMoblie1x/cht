@@ -1,0 +1,172 @@
+{
+  "columns": [
+    {
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "name": "open",
+      "type": "number"
+    },
+    {
+      "name": "high",
+      "type": "number"
+    },
+    {
+      "name": "low",
+      "type": "number"
+    },
+    {
+      "name": "close",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "date": "Day 1",
+      "open": 103.62,
+      "high": 113.52,
+      "low": 99.03,
+      "close": 104.36
+    },
+    {
+      "date": "Day 2",
+      "open": 104.34,
+      "high": 113.33,
+      "low": 97.23,
+      "close": 101.39
+    },
+    {
+      "date": "Day 3",
+      "open": 103.88,
+      "high": 118.32000000000001,
+      "low": 99.8,
+      "close": 109.45
+    },
+    {
+      "date": "Day 4",
+      "open": 106.3,
+      "high": 109.32,
+      "low": 105.49,
+      "close": 106.14
+    },
+    {
+      "date": "Day 5",
+      "open": 111.32,
+      "high": 113.92999999999999,
+      "low": 99.41,
+      "close": 106.67
+    },
+    {
+      "date": "Day 6",
+      "open": 107.14,
+      "high": 113.64,
+      "low": 101.05,
+      "close": 110.36
+    },
+    {
+      "date": "Day 7",
+      "open": 108.95,
+      "high": 111.48,
+      "low": 100.16,
+      "close": 107.25
+    },
+    {
+      "date": "Day 8",
+      "open": 110.83,
+      "high": 114.56,
+      "low": 105.72,
+      "close": 108.64
+    },
+    {
+      "date": "Day 9",
+      "open": 112.15,
+      "high": 116.00999999999999,
+      "low": 106.02000000000001,
+      "close": 113.02
+    },
+    {
+      "date": "Day 10",
+      "open": 112.47,
+      "high": 116.3,
+      "low": 106.44,
+      "close": 110.63
+    },
+    {
+      "date": "Day 11",
+      "open": 110.28,
+      "high": 122.74000000000001,
+      "low": 107.91,
+      "close": 117.45
+    },
+    {
+      "date": "Day 12",
+      "open": 117.56,
+      "high": 121.92,
+      "low": 108.7,
+      "close": 112.54
+    },
+    {
+      "date": "Day 13",
+      "open": 116.17,
+      "high": 118.89,
+      "low": 107.2,
+      "close": 114.64
+    },
+    {
+      "date": "Day 14",
+      "open": 120.18,
+      "high": 122.38000000000001,
+      "low": 113.35000000000001,
+      "close": 120.43
+    },
+    {
+      "date": "Day 15",
+      "open": 117.41,
+      "high": 119.94,
+      "low": 117.28,
+      "close": 118.22
+    },
+    {
+      "date": "Day 16",
+      "open": 117.87,
+      "high": 124.82,
+      "low": 115.16000000000001,
+      "close": 120.72
+    },
+    {
+      "date": "Day 17",
+      "open": 119.17,
+      "high": 124.3,
+      "low": 112.51,
+      "close": 118.42
+    },
+    {
+      "date": "Day 18",
+      "open": 118.55,
+      "high": 128.1,
+      "low": 114.71,
+      "close": 122.56
+    },
+    {
+      "date": "Day 19",
+      "open": 124.19,
+      "high": 128.10999999999999,
+      "low": 120.22,
+      "close": 120.24
+    },
+    {
+      "date": "Day 20",
+      "open": 121.07,
+      "high": 124.93,
+      "low": 116.28999999999999,
+      "close": 123.78
+    }
+  ],
+  "metadata": {
+    "rowCount": 20,
+    "columnCount": 5,
+    "generatedAt": "2026-01-04T12:51:58.089Z",
+    "source": "ohlc"
+  }
+}

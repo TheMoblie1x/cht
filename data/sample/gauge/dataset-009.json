@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "name": "metric",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    },
+    {
+      "name": "max",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "metric": "KPI",
+      "value": 37,
+      "max": 100
+    }
+  ],
+  "metadata": {
+    "rowCount": 1,
+    "columnCount": 3,
+    "generatedAt": "2026-01-04T12:51:58.094Z",
+    "source": "gauge"
+  }
+}

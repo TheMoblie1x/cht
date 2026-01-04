@@ -1,0 +1,42 @@
+{
+  "columns": [
+    {
+      "name": "name",
+      "type": "string",
+      "displayName": "Name"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "displayName": "Value"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Category A",
+      "value": 6
+    },
+    {
+      "name": "Category B",
+      "value": 67
+    },
+    {
+      "name": "Category C",
+      "value": 70
+    },
+    {
+      "name": "Category D",
+      "value": 21
+    },
+    {
+      "name": "Category E",
+      "value": 45
+    }
+  ],
+  "metadata": {
+    "rowCount": 5,
+    "columnCount": 2,
+    "generatedAt": "2026-01-04T12:51:58.052Z",
+    "source": "pie"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "columns": [
+    {
+      "name": "month",
+      "type": "string",
+      "displayName": "Month"
+    },
+    {
+      "name": "series1",
+      "type": "number",
+      "displayName": "series1"
+    },
+    {
+      "name": "series2",
+      "type": "number",
+      "displayName": "series2"
+    }
+  ],
+  "rows": [
+    {
+      "month": "Jan",
+      "series1": 10,
+      "series2": 199
+    },
+    {
+      "month": "Feb",
+      "series1": 225,
+      "series2": 174
+    },
+    {
+      "month": "Mar",
+      "series1": 261,
+      "series2": 62
+    },
+    {
+      "month": "Apr",
+      "series1": 111,
+      "series2": 269
+    },
+    {
+      "month": "May",
+      "series1": 108,
+      "series2": 234
+    },
+    {
+      "month": "Jun",
+      "series1": 172,
+      "series2": 183
+    },
+    {
+      "month": "Jul",
+      "series1": 296,
+      "series2": 215
+    },
+    {
+      "month": "Aug",
+      "series1": 152,
+      "series2": 18
+    },
+    {
+      "month": "Sep",
+      "series1": 163,
+      "series2": 210
+    },
+    {
+      "month": "Oct",
+      "series1": 275,
+      "series2": 233
+    },
+    {
+      "month": "Nov",
+      "series1": 84,
+      "series2": 269
+    },
+    {
+      "month": "Dec",
+      "series1": 225,
+      "series2": 23
+    }
+  ],
+  "metadata": {
+    "rowCount": 12,
+    "columnCount": 3,
+    "generatedAt": "2026-01-04T12:51:58.136Z",
+    "source": "timeSeries"
+  }
+}

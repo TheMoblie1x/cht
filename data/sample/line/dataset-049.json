@@ -1,0 +1,87 @@
+{
+  "columns": [
+    {
+      "name": "month",
+      "type": "string",
+      "displayName": "Month"
+    },
+    {
+      "name": "revenue",
+      "type": "number",
+      "displayName": "revenue"
+    },
+    {
+      "name": "cost",
+      "type": "number",
+      "displayName": "cost"
+    }
+  ],
+  "rows": [
+    {
+      "month": "Jan",
+      "revenue": 163,
+      "cost": 147
+    },
+    {
+      "month": "Feb",
+      "revenue": 44,
+      "cost": 50
+    },
+    {
+      "month": "Mar",
+      "revenue": 123,
+      "cost": 158
+    },
+    {
+      "month": "Apr",
+      "revenue": 18,
+      "cost": 252
+    },
+    {
+      "month": "May",
+      "revenue": 89,
+      "cost": 35
+    },
+    {
+      "month": "Jun",
+      "revenue": 273,
+      "cost": 143
+    },
+    {
+      "month": "Jul",
+      "revenue": 224,
+      "cost": 26
+    },
+    {
+      "month": "Aug",
+      "revenue": 227,
+      "cost": 185
+    },
+    {
+      "month": "Sep",
+      "revenue": 32,
+      "cost": 156
+    },
+    {
+      "month": "Oct",
+      "revenue": 106,
+      "cost": 64
+    },
+    {
+      "month": "Nov",
+      "revenue": 277,
+      "cost": 192
+    },
+    {
+      "month": "Dec",
+      "revenue": 168,
+      "cost": 244
+    }
+  ],
+  "metadata": {
+    "rowCount": 12,
+    "columnCount": 3,
+    "generatedAt": "2026-01-04T12:51:58.036Z",
+    "source": "timeSeries"
+  }
+}

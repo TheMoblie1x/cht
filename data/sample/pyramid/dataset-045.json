@@ -1,0 +1,276 @@
+{
+  "columns": [
+    {
+      "name": "level",
+      "type": "number"
+    },
+    {
+      "name": "position",
+      "type": "number"
+    },
+    {
+      "name": "x",
+      "type": "number"
+    },
+    {
+      "name": "y",
+      "type": "number"
+    },
+    {
+      "name": "z",
+      "type": "number"
+    },
+    {
+      "name": "value",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "level": 0,
+      "position": 0,
+      "x": 100,
+      "y": 0,
+      "z": 0,
+      "value": 280
+    },
+    {
+      "level": 0,
+      "position": 1,
+      "x": 30.9,
+      "y": 0,
+      "z": 95.11,
+      "value": 130
+    },
+    {
+      "level": 0,
+      "position": 2,
+      "x": -80.9,
+      "y": 0,
+      "z": 58.78,
+      "value": 146
+    },
+    {
+      "level": 0,
+      "position": 3,
+      "x": -80.9,
+      "y": 0,
+      "z": -58.78,
+      "value": 213
+    },
+    {
+      "level": 0,
+      "position": 4,
+      "x": 30.9,
+      "y": 0,
+      "z": -95.11,
+      "value": 112
+    },
+    {
+      "level": 1,
+      "position": 0,
+      "x": 80,
+      "y": 30,
+      "z": 0,
+      "value": 222
+    },
+    {
+      "level": 1,
+      "position": 1,
+      "x": 24.72,
+      "y": 30,
+      "z": 76.08,
+      "value": 294
+    },
+    {
+      "level": 1,
+      "position": 2,
+      "x": -64.72,
+      "y": 30,
+      "z": 47.02,
+      "value": 261
+    },
+    {
+      "level": 1,
+      "position": 3,
+      "x": -64.72,
+      "y": 30,
+      "z": -47.02,
+      "value": 27
+    },
+    {
+      "level": 1,
+      "position": 4,
+      "x": 24.72,
+      "y": 30,
+      "z": -76.08,
+      "value": 40
+    },
+    {
+      "level": 2,
+      "position": 0,
+      "x": 60,
+      "y": 60,
+      "z": 0,
+      "value": 82
+    },
+    {
+      "level": 2,
+      "position": 1,
+      "x": 18.54,
+      "y": 60,
+      "z": 57.06,
+      "value": 84
+    },
+    {
+      "level": 2,
+      "position": 2,
+      "x": -48.54,
+      "y": 60,
+      "z": 35.27,
+      "value": 56
+    },
+    {
+      "level": 2,
+      "position": 3,
+      "x": -48.54,
+      "y": 60,
+      "z": -35.27,
+      "value": 73
+    },
+    {
+      "level": 2,
+      "position": 4,
+      "x": 18.54,
+      "y": 60,
+      "z": -57.06,
+      "value": 83
+    },
+    {
+      "level": 3,
+      "position": 0,
+      "x": 40,
+      "y": 90,
+      "z": 0,
+      "value": 274
+    },
+    {
+      "level": 3,
+      "position": 1,
+      "x": 12.36,
+      "y": 90,
+      "z": 38.04,
+      "value": 204
+    },
+    {
+      "level": 3,
+      "position": 2,
+      "x": -32.36,
+      "y": 90,
+      "z": 23.51,
+      "value": 74
+    },
+    {
+      "level": 3,
+      "position": 3,
+      "x": -32.36,
+      "y": 90,
+      "z": -23.51,
+      "value": 159
+    },
+    {
+      "level": 3,
+      "position": 4,
+      "x": 12.36,
+      "y": 90,
+      "z": -38.04,
+      "value": 21
+    },
+    {
+      "level": 4,
+      "position": 0,
+      "x": 20,
+      "y": 120,
+      "z": 0,
+      "value": 281
+    },
+    {
+      "level": 4,
+      "position": 1,
+      "x": 6.18,
+      "y": 120,
+      "z": 19.02,
+      "value": 46
+    },
+    {
+      "level": 4,
+      "position": 2,
+      "x": -16.18,
+      "y": 120,
+      "z": 11.76,
+      "value": 191
+    },
+    {
+      "level": 4,
+      "position": 3,
+      "x": -16.18,
+      "y": 120,
+      "z": -11.76,
+      "value": 136
+    },
+    {
+      "level": 4,
+      "position": 4,
+      "x": 6.18,
+      "y": 120,
+      "z": -19.02,
+      "value": 163
+    },
+    {
+      "level": 5,
+      "position": 0,
+      "x": 0,
+      "y": 150,
+      "z": 0,
+      "value": 104
+    },
+    {
+      "level": 5,
+      "position": 1,
+      "x": 0,
+      "y": 150,
+      "z": 0,
+      "value": 207
+    },
+    {
+      "level": 5,
+      "position": 2,
+      "x": 0,
+      "y": 150,
+      "z": 0,
+      "value": 11
+    },
+    {
+      "level": 5,
+      "position": 3,
+      "x": 0,
+      "y": 150,
+      "z": 0,
+      "value": 111
+    },
+    {
+      "level": 5,
+      "position": 4,
+      "x": 0,
+      "y": 150,
+      "z": 0,
+      "value": 160
+    }
+  ],
+  "metadata": {
+    "rowCount": 30,
+    "columnCount": 6,
+    "generatedAt": "2026-01-04T12:51:58.175Z",
+    "source": "pyramid"
+  }
+}
