@@ -3,36 +3,41 @@
    - Network:      http://192.168.29.63:3000
 
  ✓ Starting...
-Attention: Next.js now collects completely anonymous telemetry regarding usage.
-This information is used to shape Next.js' roadmap and prioritize features.
-You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-https://nextjs.org/telemetry
-
- ✓ Ready in 1468ms
+ ✓ Ready in 1420ms
  ○ Compiling / ...
- ✓ Compiled / in 4.6s (1762 modules)
- GET / 200 in 1097ms
- GET / 200 in 5246ms
- ⚠ Cross origin request detected from 192.168.29.63 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
- ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/rahulpahuja/Desktop/chart'
- ✓ Compiled in 21ms
-[Error: ENOENT: no such file or directory, scandir '/Users/rahulpahuja/Desktop/chart/src/app'] {
-  code: 'ENOENT',
-  path: '/Users/rahulpahuja/Desktop/chart/src/app',
-  syscall: 'scandir',
-  errno: -2
-}
- ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, scandir '/Users/rahulpahuja/Desktop/chart/src/app'] {
-  code: 'ENOENT',
-  path: '/Users/rahulpahuja/Desktop/chart/src/app',
-  syscall: 'scandir',
-  errno: -2
-}
- ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, scandir '/Users/rahulpahuja/Desktop/chart/src/app'] {
-  code: 'ENOENT',
-  path: '/Users/rahulpahuja/Desktop/chart/src/app',
-  syscall: 'scandir',
-  errno: -2
-}
- ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/rahulpahuja/Desktop/chart'
+ ⨯ ./src/components/chart-forge/chart-renderer.tsx:5:1
+Module not found: Can't resolve '@/lib/chart-data-generator'
+  3 | import React from 'react';
+  4 | import { ChartConfig, ChartData } from '@/types/chart-forge';
+> 5 | import { generateChartData } from '@/lib/chart-data-generator';
+    | ^
+  6 | import { Button } from '@/components/ui/button';
+  7 | import { RotateCw } from 'lucide-react';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/chart-forge/dashboard-canvas.tsx
+./src/components/chart-forge/dashboard-editor.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/chart-forge/chart-renderer.tsx:5:1
+Module not found: Can't resolve '@/lib/chart-data-generator'
+  3 | import React from 'react';
+  4 | import { ChartConfig, ChartData } from '@/types/chart-forge';
+> 5 | import { generateChartData } from '@/lib/chart-data-generator';
+    | ^
+  6 | import { Button } from '@/components/ui/button';
+  7 | import { RotateCw } from 'lucide-react';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/chart-forge/dashboard-canvas.tsx
+./src/components/chart-forge/dashboard-editor.tsx
+./src/app/page.tsx
+ GET /_next/static/webpack/ffc3d2b731f6e199.webpack.hot-update.json 500 in 3545ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 429ms
+ GET / 500 in 9ms
