@@ -4,6 +4,7 @@
 
  ✓ Starting...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  ✓ Ready in 1420ms
  ○ Compiling / ...
  ⨯ ./src/components/chart-forge/chart-renderer.tsx:5:1
@@ -45,6 +46,10 @@ Import trace for requested module:
 =======
  ✓ Ready in 1600ms
  ○ Compiling / ...
+=======
+ ✓ Ready in 1600ms
+ ○ Compiling / ...
+>>>>>>> Stashed changes
  ✓ Compiled / in 1941ms (1764 modules)
  GET / 200 in 2195ms
  ○ Compiling /_not-found ...
@@ -133,4 +138,7 @@ Import trace for requested module:
  ✓ Compiled in 657ms (2102 modules)
  GET / 200 in 47ms
  GET / 200 in 168ms
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

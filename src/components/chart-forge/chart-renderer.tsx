@@ -122,6 +122,10 @@ export default function ChartRenderer({ config, data, width, height }: ChartRend
   const [isDragging, setIsDragging] = React.useState(false);
   const [dragStart, setDragStart] = React.useState({ x: 0, y: 0 });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  const [canvasSize, setCanvasSize] = React.useState({ w: 800, h: 400 });
+>>>>>>> Stashed changes
 =======
   const [canvasSize, setCanvasSize] = React.useState({ w: 800, h: 400 });
 >>>>>>> Stashed changes
