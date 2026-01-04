@@ -323,6 +323,7 @@ The entire system is built on a comprehensive TypeScript type system defined in 
 ```typescript
 interface ChartConfig {
   id: string;
+  type: ChartType;
   bindings: ChartBindings;      // Data field bindings
   appearance: ChartAppearance;  // Visual configuration
   interactions: ChartInteractions; // User interactions

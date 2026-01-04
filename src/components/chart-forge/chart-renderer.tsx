@@ -111,8 +111,9 @@ function getMaxYValue(rows: any[], yAxis: string | string[] | undefined): number
 }
 
 export default function ChartRenderer({ config, data, width, height }: ChartRendererProps) {
-  const chartData = data || generateChartData(config.type);
-  const { appearance, type, bindings } = config;
+  const type = config.chartType || config.type || 'line';
+  const chartData = data || generateChartData(type);
+  const { appearance, bindings } = config;
 
   const canvasRef = React.useRef<HTMLCanvasElement>(null);
   const containerRef = React.useRef<HTMLDivElement>(null);
