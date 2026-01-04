@@ -1,0 +1,48 @@
+{
+  "name": "@chartforge/sdk",
+  "version": "1.0.0",
+  "description": "ChartForge JavaScript/Web SDK - Enterprise analytics embedding for modern web applications",
+  "main": "./dist/chart-forge-sdk.js",
+  "module": "./dist/chart-forge-sdk.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "analytics",
+    "charts",
+    "dashboard",
+    "visualization",
+    "data-visualization",
+    "embeddable",
+    "enterprise",
+    "typescript"
+  ],
+  "author": "ChartForge Team",
+  "license": "PROPRIETARY",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chartforge/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chartforge/sdk/issues"
+  },
+  "homepage": "https://chartforge.io/docs/sdk",
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
