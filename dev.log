@@ -3,7 +3,10 @@
    - Network:      http://192.168.29.63:3000
 
  ✓ Starting...
- ✓ Ready in 1300ms
+ ✓ Ready in 1378ms
  ○ Compiling / ...
- ✓ Compiled / in 1252ms (1730 modules)
- GET / 200 in 1460ms
+ ✓ Compiled / in 1400ms (1730 modules)
+ GET / 200 in 1653ms
+ GET / 200 in 30ms
+ ⚠ Cross origin request detected from 192.168.29.63 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
