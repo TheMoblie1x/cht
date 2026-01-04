@@ -73,26 +73,22 @@ export default function DashboardCanvas({
 
   return (
     <div className="grid grid-cols-12 gap-4 auto-rows-[200px]">
-      {charts.map((chart) => (
-        <div
-          key={chart.id}
-          className={`
-            col-span-${chart.appearance.layout.width}
-            row-span-${chart.appearance.layout.height}
-            relative rounded-lg border bg-card
-            cursor-pointer transition-all
-            ${selectedChartId === chart.id ? 'ring-2 ring-primary' : 'hover:shadow-md'}
-            ${liveMode ? 'cursor-default' : 'hover:border-primary'}
-          `}
-          onClick={() => !liveMode && onSelectChart(chart.id)}
-          style={{
-            gridColumn: `span ${chart.appearance.layout.width}`,
-            gridRow: `span ${chart.appearance.layout.height}`,
-          }}
-        >
-          <ChartRenderer config={chart} />
-        </div>
-      ))}
+      {charts.map((chart) => {
+        const selected = selectedChartId === chart.id;
+        return (
+          <div
+            key={chart.id}
+            className={`relative rounded-lg border bg-card cursor-pointer transition-all ${selected ? 'ring-2 ring-primary' : 'hover:shadow-md'} ${liveMode ? 'cursor-default' : 'hover:border-primary'}`}
+            onClick={() => !liveMode && onSelectChart(chart.id)}
+            style={{
+              gridColumn: `span ${chart.appearance.layout.width}`,
+              gridRow: `span ${chart.appearance.layout.height}`,
+            }}
+          >
+            <ChartRenderer config={chart} />
+          </div>
+        );
+      })}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -43,7 +43,7 @@ const MOCK_DATA_SOURCES = [
   },
 ];
 
-export default function DataSourcePanel({ onSelect }: { onSelect?: (source: any) => void }) {
+export default function DataSourcePanel({ onSelect }: { onSelect?: (source: { id: string; name: string; type: string }) => void }) {
   const [activeTab, setActiveTab] = useState<'existing' | 'new'>('existing');
   const [selectedType, setSelectedType] = useState<string>('rest');
   const [isConnecting, setIsConnecting] = useState(false);
@@ -66,7 +66,7 @@ export default function DataSourcePanel({ onSelect }: { onSelect?: (source: any)
         <p className="text-sm text-muted-foreground">Manage your data connections</p>
       </div>
 
-      <Tabs value={activeTab} onValueChange={(v) => setActiveTab(v as any)} className="flex-1 flex flex-col">
+      <Tabs value={activeTab} onValueChange={(v: string) => setActiveTab(v as 'existing' | 'new')} className="flex-1 flex flex-col">
         <TabsList className="grid w-full grid-cols-2 rounded-none m-0">
           <TabsTrigger value="existing" className="rounded-none">
             Existing
